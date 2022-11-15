@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nurse Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Evolución</h1>
+    <form method="post" action="https://register-demo.freecodecamp.org">
+      <fieldset>
+        <label for="first-name"
+          >Ingrese el nombre del paciente
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Acuña</option>
+            <option value="2">Ferreyra</option>
+            <option value="3">Cuevas</option>
+            <option value="4">Ferrada</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="diuresis"
+          ><input id="diuresis" type="radio" name="diuresis" class="inline" />
+          Diuresis</label
+        >
+        <label for="business-account"
+          ><input id="catarsis" type="radio" name="catarsis" class="inline" />
+          Catarsis</label
+        >
+
+        <label for="respiratory-frecuency"
+          >Ingrese la Frecuencia Respiratoria:
+          <input id="age" type="number" name="age" min="5" max="40"
+        /></label>
+
+        <label for="cardiac-frecuency"
+          >Ingrese la Frecuencia cardiaca:
+          <input id="age" type="number" name="age" min="5" max="40"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture"
+          >Cargar una foto <input id="profile-picture" type="file" name="file"
+        /></label>
+        <label for="bio"
+          >Evolucion:
+          <textarea
+            id="bio"
+            name="bio"
+            rows="3"
+            cols="30"
+            placeholder="Paciente en su domicilio acompañado etc"
+          ></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
